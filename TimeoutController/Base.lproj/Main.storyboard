@@ -126,7 +126,10 @@
                 <tapGestureRecognizer id="xtp-Tl-tfo" userLabel="ControlViewGesture (optional)"/>
                 <customObject id="9es-ta-05n" customClass="TimeoutControllerHost" customModule="TimeoutController" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoHide" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoStart" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                            <real key="value" value="0.20000000000000001"/>
+                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="tapGesture" destination="OqP-BU-kfM" id="aYN-mu-L13"/>
@@ -147,7 +150,7 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="33.423913043478265" y="28.985507246376812"/>
+            <point key="canvasLocation" x="7" y="-294"/>
         </scene>
     </scenes>
     <resources>

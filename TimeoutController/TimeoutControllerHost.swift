@@ -9,13 +9,15 @@
 import UIKit
 
 /// This class basically encapsulates the setup and functions normally found inside your UIViewController or UIView. It encapsultes the visibility of a view, along with a tap gesture for toggling visibility as well as an underling TimeoutController.
-@objc public final class TimeoutControllerHost: NSObject {
+@IBDesignable @objc public final class TimeoutControllerHost: NSObject {
     
     /// If true, the timeoutController will automatically resume immediately.
-    @IBInspectable @objc private var autoStart: Bool = false
+    @IBInspectable dynamic private var autoStart: Bool = false
     
     /// If true, the timeoutController's events are ignored. Sometimes useful for temporarily disabling this feature.
-    @IBInspectable @objc var autoHide: Bool = true
+    @IBInspectable dynamic var autoHide: Bool = true
+    
+    @IBInspectable dynamic var animationDuration: Double = 0.2
     
     /// The underlying view to show/hide. E.g. In a media player, this would usually be the control's view
     @IBOutlet public private(set) weak var viewToHide: UIView!
@@ -88,7 +90,7 @@ import UIKit
             return
         }
         
-        UIView.animate(withDuration: 0.2) {
+        UIView.animate(withDuration: animationDuration) {
             self.viewToHide.alpha = hidden ? 0 : 1
         }
     }

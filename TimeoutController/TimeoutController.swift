@@ -28,7 +28,7 @@ import UIKit
     }
     
     /// The specified timeout is used to determine when the TimeoutController needs to call its handler
-    @IBInspectable @objc public var timeout: Double = 5 {
+    @IBInspectable dynamic public var timeout: Double = 5 {
         didSet {
             guard timer != nil else { return }
             pause()
