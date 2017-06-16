@@ -4,12 +4,15 @@ Project demonstrates how to compose behaviour through the use of Storyboard's.
 
 It uses a typical example of a video player with controls that should show/hide depending on interactions and a timeout.
 
-## Presentation Deck
+## Explanation
 
-<script async class="speakerdeck-embed" data-id="673f1ab8aec441589e6d9db04e515c91" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+You can view the deck here:  
+[Behaviour Composition with Storyboards](https://speakerdeck.com/shaps80/behaviour-composition-with-storyboards)
 
-Included in the repo is a presentation deck that breaks it down. You can also read about it on my blog.
-[http://shaps.me](http://shaps.me/blog/)
+The the repo also contains a PDF version. 
+
+You can also read about it on my blog.  
+[shaps.me/blog](http://shaps.me/blog/)
 
 ## Sample Code
 
