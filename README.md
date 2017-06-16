@@ -12,7 +12,7 @@ You can view the deck here:
 The the repo also contains a PDF version. 
 
 You can also read about it on my blog.  
-[shaps.me/blog](http://shaps.me/blog/)
+[shaps.me/blog](http://shaps.me/blog/behaviour-composition-with-storyboards)
 
 ## Sample Code
 
