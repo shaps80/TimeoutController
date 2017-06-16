@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		546E995D1EF2B1B400E95F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E995C1EF2B1B400E95F15 /* AppDelegate.swift */; };
-		546E995F1EF2B1B400E95F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E995E1EF2B1B400E95F15 /* ViewController.swift */; };
-		546E99621EF2B1B400E95F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546E99601EF2B1B400E95F15 /* Main.storyboard */; };
-		546E99641EF2B1B400E95F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546E99631EF2B1B400E95F15 /* Assets.xcassets */; };
-		546E99671EF2B1B400E95F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546E99651EF2B1B400E95F15 /* LaunchScreen.storyboard */; };
+		549F14971EF3D76F00E56D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549F148C1EF3D76F00E56D3D /* Assets.xcassets */; };
+		549F14981EF3D76F00E56D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549F148E1EF3D76F00E56D3D /* LaunchScreen.storyboard */; };
+		549F14991EF3D76F00E56D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549F14901EF3D76F00E56D3D /* Main.storyboard */; };
+		549F149A1EF3D76F00E56D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14921EF3D76F00E56D3D /* AppDelegate.swift */; };
+		549F149B1EF3D76F00E56D3D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14931EF3D76F00E56D3D /* ControlsView.swift */; };
+		549F149C1EF3D76F00E56D3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 549F14941EF3D76F00E56D3D /* Info.plist */; };
+		549F149E1EF3D76F00E56D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14961EF3D76F00E56D3D /* ViewController.swift */; };
+		549F14A11EF3D7AA00E56D3D /* TimeoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F149F1EF3D7AA00E56D3D /* TimeoutController.swift */; };
+		549F14A21EF3D7AA00E56D3D /* TimeoutControllerHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14A01EF3D7AA00E56D3D /* TimeoutControllerHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		546E99591EF2B1B400E95F15 /* InteractionController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractionController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		546E995C1EF2B1B400E95F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		546E995E1EF2B1B400E95F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		546E99611EF2B1B400E95F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		546E99631EF2B1B400E95F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		546E99661EF2B1B400E95F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		546E99681EF2B1B400E95F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546E99591EF2B1B400E95F15 /* TimeoutController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeoutController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		549F148C1EF3D76F00E56D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TimeoutController/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		549F148F1EF3D76F00E56D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		549F14911EF3D76F00E56D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		549F14921EF3D76F00E56D3D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TimeoutController/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		549F14931EF3D76F00E56D3D /* ControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControlsView.swift; path = TimeoutController/ControlsView.swift; sourceTree = SOURCE_ROOT; };
+		549F14941EF3D76F00E56D3D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TimeoutController/Info.plist; sourceTree = SOURCE_ROOT; };
+		549F14961EF3D76F00E56D3D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TimeoutController/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		549F149F1EF3D7AA00E56D3D /* TimeoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeoutController.swift; path = TimeoutController/TimeoutController.swift; sourceTree = "<group>"; };
+		549F14A01EF3D7AA00E56D3D /* TimeoutControllerHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeoutControllerHost.swift; path = TimeoutController/TimeoutControllerHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +42,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5466CA9E1EF2B6CF0070EEF0 /* TmeoutController */ = {
+			isa = PBXGroup;
+			children = (
+				549F149F1EF3D7AA00E56D3D /* TimeoutController.swift */,
+				549F14A01EF3D7AA00E56D3D /* TimeoutControllerHost.swift */,
+			);
+			name = TmeoutController;
+			sourceTree = "<group>";
+		};
 		546E99501EF2B1B400E95F15 = {
 			isa = PBXGroup;
 			children = (
-				546E995B1EF2B1B400E95F15 /* InteractionController */,
+				5466CA9E1EF2B6CF0070EEF0 /* TmeoutController */,
+				546E995B1EF2B1B400E95F15 /* User Interface */,
 				546E995A1EF2B1B400E95F15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +63,49 @@
 		546E995A1EF2B1B400E95F15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				546E99591EF2B1B400E95F15 /* InteractionController.app */,
+				546E99591EF2B1B400E95F15 /* TimeoutController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		546E995B1EF2B1B400E95F15 /* InteractionController */ = {
+		546E995B1EF2B1B400E95F15 /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
-				546E995C1EF2B1B400E95F15 /* AppDelegate.swift */,
-				546E995E1EF2B1B400E95F15 /* ViewController.swift */,
-				546E99601EF2B1B400E95F15 /* Main.storyboard */,
-				546E99631EF2B1B400E95F15 /* Assets.xcassets */,
-				546E99651EF2B1B400E95F15 /* LaunchScreen.storyboard */,
-				546E99681EF2B1B400E95F15 /* Info.plist */,
+				549F14921EF3D76F00E56D3D /* AppDelegate.swift */,
+				549F14961EF3D76F00E56D3D /* ViewController.swift */,
+				549F14931EF3D76F00E56D3D /* ControlsView.swift */,
+				549F14901EF3D76F00E56D3D /* Main.storyboard */,
+				549F14A31EF3D7C800E56D3D /* Support Files */,
 			);
+			name = "User Interface";
 			path = InteractionController;
+			sourceTree = "<group>";
+		};
+		549F148D1EF3D76F00E56D3D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				549F148E1EF3D76F00E56D3D /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			path = TimeoutController/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		549F14A31EF3D7C800E56D3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				549F14941EF3D76F00E56D3D /* Info.plist */,
+				549F148D1EF3D76F00E56D3D /* Base.lproj */,
+				549F148C1EF3D76F00E56D3D /* Assets.xcassets */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		546E99581EF2B1B400E95F15 /* InteractionController */ = {
+		546E99581EF2B1B400E95F15 /* TimeoutController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 546E996B1EF2B1B400E95F15 /* Build configuration list for PBXNativeTarget "InteractionController" */;
+			buildConfigurationList = 546E996B1EF2B1B400E95F15 /* Build configuration list for PBXNativeTarget "TimeoutController" */;
 			buildPhases = (
 				546E99551EF2B1B400E95F15 /* Sources */,
 				546E99561EF2B1B400E95F15 /* Frameworks */,
@@ -79,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = InteractionController;
+			name = TimeoutController;
 			productName = InteractionController;
-			productReference = 546E99591EF2B1B400E95F15 /* InteractionController.app */;
+			productReference = 546E99591EF2B1B400E95F15 /* TimeoutController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 546E99541EF2B1B400E95F15 /* Build configuration list for PBXProject "InteractionController" */;
+			buildConfigurationList = 546E99541EF2B1B400E95F15 /* Build configuration list for PBXProject "TimeoutController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				546E99581EF2B1B400E95F15 /* InteractionController */,
+				546E99581EF2B1B400E95F15 /* TimeoutController */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546E99671EF2B1B400E95F15 /* LaunchScreen.storyboard in Resources */,
-				546E99641EF2B1B400E95F15 /* Assets.xcassets in Resources */,
-				546E99621EF2B1B400E95F15 /* Main.storyboard in Resources */,
+				549F14971EF3D76F00E56D3D /* Assets.xcassets in Resources */,
+				549F14991EF3D76F00E56D3D /* Main.storyboard in Resources */,
+				549F14981EF3D76F00E56D3D /* LaunchScreen.storyboard in Resources */,
+				549F149C1EF3D76F00E56D3D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,28 +174,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546E995F1EF2B1B400E95F15 /* ViewController.swift in Sources */,
-				546E995D1EF2B1B400E95F15 /* AppDelegate.swift in Sources */,
+				549F149B1EF3D76F00E56D3D /* ControlsView.swift in Sources */,
+				549F14A21EF3D7AA00E56D3D /* TimeoutControllerHost.swift in Sources */,
+				549F14A11EF3D7AA00E56D3D /* TimeoutController.swift in Sources */,
+				549F149A1EF3D76F00E56D3D /* AppDelegate.swift in Sources */,
+				549F149E1EF3D76F00E56D3D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		546E99601EF2B1B400E95F15 /* Main.storyboard */ = {
+		549F148E1EF3D76F00E56D3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				546E99611EF2B1B400E95F15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		546E99651EF2B1B400E95F15 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				546E99661EF2B1B400E95F15 /* Base */,
+				549F148F1EF3D76F00E56D3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		549F14901EF3D76F00E56D3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549F14911EF3D76F00E56D3D /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../TimeoutController/Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,9 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V2CWYL9AN8;
-				INFOPLIST_FILE = InteractionController/Info.plist;
+				INFOPLIST_FILE = TimeoutController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.152percent.ios.InteractionController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.152percent.ios.TimeoutController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,9 +316,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V2CWYL9AN8;
-				INFOPLIST_FILE = InteractionController/Info.plist;
+				INFOPLIST_FILE = TimeoutController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.152percent.ios.InteractionController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.152percent.ios.TimeoutController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		546E99541EF2B1B400E95F15 /* Build configuration list for PBXProject "InteractionController" */ = {
+		546E99541EF2B1B400E95F15 /* Build configuration list for PBXProject "TimeoutController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				546E99691EF2B1B400E95F15 /* Debug */,
@@ -295,13 +336,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		546E996B1EF2B1B400E95F15 /* Build configuration list for PBXNativeTarget "InteractionController" */ = {
+		546E996B1EF2B1B400E95F15 /* Build configuration list for PBXNativeTarget "TimeoutController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				546E996C1EF2B1B400E95F15 /* Debug */,
 				546E996D1EF2B1B400E95F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

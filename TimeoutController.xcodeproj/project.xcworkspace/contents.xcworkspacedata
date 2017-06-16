@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:InteractionController.xcodeproj">
+      location = "self:/Users/shaps/Desktop/InteractionController/TimeoutController.xcodeproj">
    </FileRef>
 </Workspace>

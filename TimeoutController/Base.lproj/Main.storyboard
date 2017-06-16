@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimeoutController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="martian" translatesAutoresizingMaskIntoConstraints="NO" id="PVk-pv-Jyi">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJt-86-Zxz" customClass="ControlsView" customModule="TimeoutController" customModuleProvider="target">
+                                <rect key="frame" x="36" y="348" width="664" height="50"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vTr-ap-JqL">
+                                    <rect key="frame" x="0.0" y="0.0" width="664" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QDC-a5-MUj">
+                                            <rect key="frame" x="0.0" y="0.0" width="664" height="50"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cno-Cb-Jwb">
+                                                <rect key="frame" x="0.0" y="0.0" width="664" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tex-Uy-5ul" userLabel="Play Button">
+                                                        <rect key="frame" x="16" y="8.6666666666666856" width="100" height="33"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="3Ge-Zs-Zm0"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <state key="normal" title="Play"/>
+                                                        <state key="selected" title="Pause"/>
+                                                    </button>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DL4-as-p87">
+                                                        <rect key="frame" x="526" y="10" width="124" height="31"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="120" id="ld6-98-Ird"/>
+                                                        </constraints>
+                                                    </slider>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQt-6Y-eRE">
+                                                        <rect key="frame" x="116" y="0.0" width="412" height="50"/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="xtp-Tl-tfo" appends="YES" id="LlS-HI-DxB"/>
+                                                        </connections>
+                                                    </view>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="qQt-6Y-eRE" firstAttribute="leading" secondItem="tex-Uy-5ul" secondAttribute="trailing" id="1se-oB-UgE"/>
+                                                    <constraint firstItem="qQt-6Y-eRE" firstAttribute="top" secondItem="cno-Cb-Jwb" secondAttribute="top" id="Hah-kL-28y"/>
+                                                    <constraint firstItem="tex-Uy-5ul" firstAttribute="centerY" secondItem="cno-Cb-Jwb" secondAttribute="centerY" id="Hpi-y5-M1X"/>
+                                                    <constraint firstItem="tex-Uy-5ul" firstAttribute="leading" secondItem="cno-Cb-Jwb" secondAttribute="leading" constant="16" id="MqJ-Qd-Fg3"/>
+                                                    <constraint firstAttribute="bottom" secondItem="qQt-6Y-eRE" secondAttribute="bottom" id="aoa-kR-FyT"/>
+                                                    <constraint firstItem="DL4-as-p87" firstAttribute="centerY" secondItem="cno-Cb-Jwb" secondAttribute="centerY" id="k6F-mI-rou"/>
+                                                    <constraint firstAttribute="trailing" secondItem="DL4-as-p87" secondAttribute="trailing" constant="16" id="qX9-OG-2a9"/>
+                                                    <constraint firstItem="DL4-as-p87" firstAttribute="leading" secondItem="qQt-6Y-eRE" secondAttribute="trailing" id="wcD-NA-a54"/>
+                                                </constraints>
+                                            </view>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <vibrancyEffect>
+                                                <blurEffect style="dark"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QDC-a5-MUj" firstAttribute="top" secondItem="vTr-ap-JqL" secondAttribute="top" id="7Gw-qa-Qfh"/>
+                                        <constraint firstAttribute="bottom" secondItem="QDC-a5-MUj" secondAttribute="bottom" id="TNj-7g-hfR"/>
+                                        <constraint firstItem="QDC-a5-MUj" firstAttribute="leading" secondItem="vTr-ap-JqL" secondAttribute="leading" id="maN-Q8-wjE"/>
+                                        <constraint firstAttribute="trailing" secondItem="QDC-a5-MUj" secondAttribute="trailing" id="nxn-wa-VxV"/>
+                                    </constraints>
+                                </view>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Z6o-JL-zTR"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+                                        <integer key="value" value="1000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="playPauseButton" destination="tex-Uy-5ul" id="E8u-Uz-9Dn"/>
+                                    <outlet property="volumeSlider" destination="DL4-as-p87" id="ZHT-4d-Mz6"/>
+                                </connections>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PVk-pv-Jyi" secondAttribute="bottom" id="33C-2e-bQi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QJt-86-Zxz" secondAttribute="bottom" constant="16" id="4yn-bW-O9H"/>
+                            <constraint firstAttribute="trailing" secondItem="PVk-pv-Jyi" secondAttribute="trailing" id="Hdq-aF-CBZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QJt-86-Zxz" secondAttribute="trailing" constant="16" id="ISG-cv-dFb"/>
+                            <constraint firstItem="PVk-pv-Jyi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="YSt-F7-Nl4"/>
+                            <constraint firstItem="QJt-86-Zxz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="ZhV-rC-AON"/>
+                            <constraint firstItem="PVk-pv-Jyi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vd4-gE-Kdk"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="OqP-BU-kfM" appends="YES" id="tz3-TT-BG6"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="timeoutHost" destination="9es-ta-05n" id="F8S-D6-xg8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="OqP-BU-kfM"/>
+                <tapGestureRecognizer id="xtp-Tl-tfo" userLabel="ControlViewGesture (optional)"/>
+                <customObject id="9es-ta-05n" customClass="TimeoutControllerHost" customModule="TimeoutController" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoHide" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="tapGesture" destination="OqP-BU-kfM" id="aYN-mu-L13"/>
+                        <outlet property="timeoutController" destination="llR-I9-GXM" id="9PL-tO-VGI"/>
+                        <outlet property="viewToHide" destination="QJt-86-Zxz" id="0Ke-Iw-JAc"/>
+                    </connections>
+                </customObject>
+                <customObject id="llR-I9-GXM" customClass="TimeoutController" customModule="TimeoutController" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="timeout">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outletCollection property="interactionProviders" destination="tex-Uy-5ul" collectionClass="NSMutableArray" id="59g-Rc-nz2"/>
+                        <outletCollection property="interactionProviders" destination="DL4-as-p87" collectionClass="NSMutableArray" id="w7N-Ft-QQh"/>
+                        <outletCollection property="interactionProviders" destination="xtp-Tl-tfo" collectionClass="NSMutableArray" id="9be-G8-6o5"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="33.423913043478265" y="28.985507246376812"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="martian" width="1000" height="538"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</document>
