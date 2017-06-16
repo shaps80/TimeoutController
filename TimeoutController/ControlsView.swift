@@ -14,11 +14,6 @@ final class ControlsView: UIVisualEffectView {
     @IBOutlet weak var playPauseButton: UIButton!
     @IBOutlet weak var volumeSlider: UISlider!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        layer.zPosition = 1000
-    }
-    
     @IBInspectable var cornerRadius: CGFloat {
         get { return layer.cornerRadius }
         set { layer.cornerRadius = newValue }

@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5442CD3C1EF3DBFC0084ABA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442CD381EF3DBFC0084ABA3 /* LaunchScreen.storyboard */; };
+		5442CD3D1EF3DBFC0084ABA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442CD3A1EF3DBFC0084ABA3 /* Main.storyboard */; };
 		549F14971EF3D76F00E56D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549F148C1EF3D76F00E56D3D /* Assets.xcassets */; };
-		549F14981EF3D76F00E56D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549F148E1EF3D76F00E56D3D /* LaunchScreen.storyboard */; };
-		549F14991EF3D76F00E56D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549F14901EF3D76F00E56D3D /* Main.storyboard */; };
 		549F149A1EF3D76F00E56D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14921EF3D76F00E56D3D /* AppDelegate.swift */; };
 		549F149B1EF3D76F00E56D3D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14931EF3D76F00E56D3D /* ControlsView.swift */; };
-		549F149C1EF3D76F00E56D3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 549F14941EF3D76F00E56D3D /* Info.plist */; };
 		549F149E1EF3D76F00E56D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14961EF3D76F00E56D3D /* ViewController.swift */; };
 		549F14A11EF3D7AA00E56D3D /* TimeoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F149F1EF3D7AA00E56D3D /* TimeoutController.swift */; };
 		549F14A21EF3D7AA00E56D3D /* TimeoutControllerHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549F14A01EF3D7AA00E56D3D /* TimeoutControllerHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5442CD391EF3DBFC0084ABA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TimeoutController/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		5442CD3B1EF3DBFC0084ABA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TimeoutController/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		546E99591EF2B1B400E95F15 /* TimeoutController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeoutController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549F148C1EF3D76F00E56D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TimeoutController/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		549F148F1EF3D76F00E56D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		549F14911EF3D76F00E56D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		549F14921EF3D76F00E56D3D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TimeoutController/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		549F14931EF3D76F00E56D3D /* ControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControlsView.swift; path = TimeoutController/ControlsView.swift; sourceTree = SOURCE_ROOT; };
 		549F14941EF3D76F00E56D3D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TimeoutController/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -74,27 +73,18 @@
 				549F14921EF3D76F00E56D3D /* AppDelegate.swift */,
 				549F14961EF3D76F00E56D3D /* ViewController.swift */,
 				549F14931EF3D76F00E56D3D /* ControlsView.swift */,
-				549F14901EF3D76F00E56D3D /* Main.storyboard */,
+				5442CD3A1EF3DBFC0084ABA3 /* Main.storyboard */,
 				549F14A31EF3D7C800E56D3D /* Support Files */,
 			);
 			name = "User Interface";
 			path = InteractionController;
 			sourceTree = "<group>";
 		};
-		549F148D1EF3D76F00E56D3D /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				549F148E1EF3D76F00E56D3D /* LaunchScreen.storyboard */,
-			);
-			name = Base.lproj;
-			path = TimeoutController/Base.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
 		549F14A31EF3D7C800E56D3D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				549F14941EF3D76F00E56D3D /* Info.plist */,
-				549F148D1EF3D76F00E56D3D /* Base.lproj */,
+				5442CD381EF3DBFC0084ABA3 /* LaunchScreen.storyboard */,
 				549F148C1EF3D76F00E56D3D /* Assets.xcassets */,
 			);
 			name = "Support Files";
@@ -160,10 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5442CD3C1EF3DBFC0084ABA3 /* LaunchScreen.storyboard in Resources */,
 				549F14971EF3D76F00E56D3D /* Assets.xcassets in Resources */,
-				549F14991EF3D76F00E56D3D /* Main.storyboard in Resources */,
-				549F14981EF3D76F00E56D3D /* LaunchScreen.storyboard in Resources */,
-				549F149C1EF3D76F00E56D3D /* Info.plist in Resources */,
+				5442CD3D1EF3DBFC0084ABA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,21 +174,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		549F148E1EF3D76F00E56D3D /* LaunchScreen.storyboard */ = {
+		5442CD381EF3DBFC0084ABA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				549F148F1EF3D76F00E56D3D /* Base */,
+				5442CD391EF3DBFC0084ABA3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		549F14901EF3D76F00E56D3D /* Main.storyboard */ = {
+		5442CD3A1EF3DBFC0084ABA3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				549F14911EF3D76F00E56D3D /* Base */,
+				5442CD3B1EF3DBFC0084ABA3 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../TimeoutController/Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
